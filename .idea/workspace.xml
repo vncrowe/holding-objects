@@ -23,50 +23,63 @@
     <favorites_list name="holdingobjects" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhoneBook.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PhoneBook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhoneBookSpec.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PhoneBookSpec.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PhoneBook.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/PhoneBook.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="802">
+                  <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#295#296#0" expanded="true" />
+                    <element signature="e#366#367#0" expanded="true" />
+                    <element signature="e#497#505#0" expanded="true" />
+                    <element signature="e#674#675#0" expanded="true" />
+                    <element signature="e#719#720#0" expanded="true" />
+                    <element signature="e#765#766#0" expanded="true" />
+                    <element signature="e#806#807#0" expanded="true" />
+                    <element signature="e#1579#1580#0" expanded="true" />
+                    <element signature="e#1637#1638#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="PhoneBookSpec.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/PhoneBookSpec.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="562">
+                  <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#556#564#0" expanded="true" />
+                    <element signature="e#996#1004#0" expanded="true" />
+                    <element signature="e#2386#2394#0" expanded="true" />
+                    <element signature="e#2788#2796#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,8 +97,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/PhoneBook.java" />
         <option value="$PROJECT_DIR$/src/test/java/PhoneBookSpec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PhoneBook.java" />
       </list>
     </option>
   </component>
@@ -758,44 +771,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1463770842123</updated>
-      <workItem from="1463770843760" duration="6189000" />
+      <workItem from="1463770843760" duration="9300000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PhoneBookSpec - 2016.05.20 at 16h 19m 32s.xml">
+    <history-entry file="PhoneBookSpec - 2016.05.20 at 17h 10m 39s.xml">
       <configuration name="PhoneBookSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhoneBookSpec - 2016.05.20 at 16h 20m 15s.xml">
+    <history-entry file="PhoneBookSpec - 2016.05.20 at 17h 20m 02s.xml">
       <configuration name="PhoneBookSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhoneBookSpec - 2016.05.20 at 16h 21m 13s.xml">
+    <history-entry file="PhoneBookSpec - 2016.05.20 at 17h 20m 41s.xml">
       <configuration name="PhoneBookSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhoneBookSpec - 2016.05.20 at 16h 25m 51s.xml">
+    <history-entry file="PhoneBookSpec - 2016.05.20 at 17h 26m 36s.xml">
       <configuration name="PhoneBookSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhoneBookSpec - 2016.05.20 at 16h 26m 13s.xml">
+    <history-entry file="PhoneBookSpec - 2016.05.20 at 17h 27m 16s.xml">
       <configuration name="PhoneBookSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhoneBookSpec - 2016.05.20 at 16h 36m 14s.xml">
+    <history-entry file="PhoneBookSpec - 2016.05.20 at 17h 30m 49s.xml">
       <configuration name="PhoneBookSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhoneBookSpec - 2016.05.20 at 16h 36m 37s.xml">
+    <history-entry file="PhoneBookSpec - 2016.05.20 at 17h 36m 46s.xml">
       <configuration name="PhoneBookSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhoneBookSpec - 2016.05.20 at 16h 50m 08s.xml">
+    <history-entry file="PhoneBookSpec - 2016.05.20 at 17h 38m 07s.xml">
       <configuration name="PhoneBookSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhoneBookSpec_listEntriesTest - 2016.05.20 at 16h 19m 19s.xml">
-      <configuration name="PhoneBookSpec.listEntriesTest" configurationId="JUnit" />
+    <history-entry file="PhoneBookSpec - 2016.05.20 at 17h 38m 44s.xml">
+      <configuration name="PhoneBookSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhoneBookSpec_removeContactTest - 2016.05.20 at 15h 50m 09s.xml">
-      <configuration name="PhoneBookSpec.removeContactTest" configurationId="JUnit" />
+    <history-entry file="PhoneBookSpec - 2016.05.20 at 17h 43m 59s.xml">
+      <configuration name="PhoneBookSpec" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6189000" />
+    <option name="totallyTimeSpent" value="9300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
@@ -809,7 +822,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -832,7 +845,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -850,28 +865,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PhoneBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+        <state relative-caret-position="802">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#497#505#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PhoneBookSpec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="562">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#556#564#0" expanded="true" />
+            <element signature="e#996#1004#0" expanded="true" />
+            <element signature="e#2386#2394#0" expanded="true" />
+            <element signature="e#2788#2796#0" expanded="true" />
           </folding>
         </state>
       </provider>

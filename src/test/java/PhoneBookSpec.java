@@ -2,6 +2,9 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 /**
  * Created by veronicacrowe on 5/20/16.
  */
@@ -20,8 +23,9 @@ public class PhoneBookSpec {
 
     public void addContactTest(){
         phoneBook.addContact("John Doe", "302-567-5678");
-        String expectedValue = "302-567-5678";
-        String actualValue = phoneBook.lookup("John Doe");
+        ArrayList<String> expectedValue = new ArrayList<String>();
+       expectedValue.add("302-567-5678");
+        ArrayList<String> actualValue = phoneBook.lookup("John Doe");
         assertEquals(expectedValue, actualValue);
 
     }
@@ -36,8 +40,9 @@ public class PhoneBookSpec {
 
     @Test
     public void lookupTest(){
-        String expectedValue = "302-588-9907";
-        String actualValue = phoneBook.lookup("Veronica Crowe");
+        ArrayList<String> expectedValue = new ArrayList<String>();
+        expectedValue.add("302-588-9907");
+        ArrayList<String> actualValue = phoneBook.lookup("Veronica Crowe");
         assertEquals(expectedValue, actualValue);
 
     }
@@ -54,7 +59,8 @@ public class PhoneBookSpec {
 
     public void listEntriesTest(){
         phoneBook.addContact("John Doe", "302-567-5678");
-        String expectedValue = "John Doe 302-567-5678\nVeronica Crowe 302-588-9907\n";
+        phoneBook.addNumber("John Doe","666-666-6666");
+        String expectedValue = "John Doe\n302-567-5678\n666-666-6666\nVeronica Crowe\n302-588-9907\n";
         String actualValue = phoneBook.listEntries();
         assertEquals(expectedValue, actualValue);
     }
@@ -62,8 +68,32 @@ public class PhoneBookSpec {
     @Test
     public void reverseLookupTest(){
         phoneBook.addContact("John Doe", "302-567-5678");
+        phoneBook.addNumber("Veronica Crowe", "555-555-5555");
+        phoneBook.addNumber("John Doe", "666-555-5555");
         String expectedValue = "John Doe";
-        String actualValue = phoneBook.reserveLookup("302-567-5678");
+        String actualValue = phoneBook.reserveLookup("666-555-5555");
         assertEquals(expectedValue, actualValue);
+    }
+
+    @Test
+    public void addNumberTest(){
+        phoneBook.addNumber("Veronica Crowe", "555-555-5555");
+        ArrayList<String> expectedValue = new ArrayList<String>();
+        expectedValue.add("302-588-9907");
+        expectedValue.add("555-555-5555");
+        ArrayList<String> actualValue = phoneBook.lookup("Veronica Crowe");
+        assertEquals(expectedValue,actualValue);
+    }
+
+    @Test
+    public void removePhoneNumberTest(){
+        phoneBook.removeNumber("Veronica Crowe", "302-588-9907");
+        ArrayList<String> expectedValue = new ArrayList<String>();
+        ArrayList<String> actualValue = phoneBook.lookup("Veronica Crowe");
+        assertEquals(expectedValue,actualValue);
+        phoneBook.addNumber("Veronica Crowe", "555-555-5555");
+        expectedValue.add("555-555-5555");
+        assertEquals(expectedValue,actualValue);
+
     }
 }
