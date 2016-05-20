@@ -59,4 +59,11 @@ public class PhoneBookSpec {
         assertEquals(expectedValue, actualValue);
     }
 
+    @Test
+    public void reverseLookupTest(){
+        phoneBook.addContact("John Doe", "302-567-5678");
+        String expectedValue = "John Doe";
+        String actualValue = phoneBook.reserveLookup("302-567-5678");
+        assertEquals(expectedValue, actualValue);
+    }
 }

@@ -42,4 +42,13 @@ public class PhoneBook {
         }
         return output;
     }
+
+    public String reserveLookup(String phoneNumber){
+        for(Map.Entry<String,String> entry : phoneEntries.entrySet()){
+            if(phoneNumber == entry.getValue()){
+                return entry.getKey();
+            }
+        }
+        return null;
+    }
 }
